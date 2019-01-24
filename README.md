@@ -1,2 +1,2 @@
 # BionicEyeArduino
-the Arduino components for the BionicEye project
+the Arduino components (Shoe and belt) for the BionicEye project
