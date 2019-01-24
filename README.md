@@ -11,6 +11,7 @@ the Arduino components (Shoe and belt) for the BionicEye project
 
 ## Belt Component:
 * A fritzing diagram of the belt component:
+
 ![This is a fritzing diagram of the belt component](https://i.ibb.co/tLj5K0M/first-ATMP-bb.png "Belt Component")
 
 ## Shoe Component:
