@@ -19,13 +19,29 @@ void initVibrationMotors() {
   pinMode(continuePin, OUTPUT);
 }
 
+void vibAll() {
+  for (int POWER = 0; POWER <= 255; POWER++) {
+    analogWrite(rightPin, POWER);
+    analogWrite(leftPin, POWER);
+    analogWrite(leftPin, POWER);
+    delay(1);
+  }
+  delay(250);
+  for (int POWER = 255; POWER >= 0; POWER--) {
+    analogWrite(rightPin, POWER);
+    analogWrite(leftPin, POWER);
+    analogWrite(leftPin, POWER);
+    delay(1);
+  }
+}
+
 void vib(int pin) {
-  for(int POWER=0;POWER<=255;POWER++){
+  for (int POWER = 0; POWER <= 255; POWER++) {
     analogWrite(pin, POWER);
     delay(1);
   }
   delay(250);
-  for(int POWER=255;POWER>=0;POWER--){
+  for (int POWER = 255; POWER >= 0; POWER--) {
     analogWrite(pin, POWER);
     delay(1);
   }
@@ -40,6 +56,10 @@ void getDiraction() {
   else {
     return;
   }
+  if (c == '9') {
+    vibAll();
+  }
+
   //forward only
   if (c == '3' && isContinue ) {
     vib(continuePin);
