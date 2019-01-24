@@ -8,3 +8,7 @@ the Arduino components (Shoe and belt) for the BionicEye project
 
 ## Mobile app:
 [BionicEyeXamarin](https://github.com/aviadshiber/BionicEyeXamarin)
+
+![This is a fritzing diagram of the belt component](https://i.ibb.co/tLj5K0M/first-ATMP-bb.png "Belt Component")
+
+![This is a fritzing diagram of the shoe component](https://i.ibb.co/85b81Wd/second-ATMP-bb.png "Shoe Component")
