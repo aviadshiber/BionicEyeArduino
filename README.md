@@ -10,9 +10,9 @@ the Arduino components (Shoe and belt) for the BionicEye project
 [BionicEyeXamarin](https://github.com/aviadshiber/BionicEyeXamarin)
 
 ## Belt Component:
-*A fritzing diagram of the belt component:
+* A fritzing diagram of the belt component:
 ![This is a fritzing diagram of the belt component](https://i.ibb.co/tLj5K0M/first-ATMP-bb.png "Belt Component")
 
 ## Shoe Component:
-*A fritzing diagram of the shoe component:
+* A fritzing diagram of the shoe component:
 ![This is a fritzing diagram of the shoe component](https://i.ibb.co/85b81Wd/second-ATMP-bb.png "Shoe Component")
