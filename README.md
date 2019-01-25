@@ -15,7 +15,6 @@ the Arduino components (Shoe and belt) for the BionicEye project
 * 2 Arduino Nano
 * 4 Coin Vibration motor
 * 2 ultrasonic sensors
-* Mechanical contraption to extract a sensor from a shoe (Optional)
 * Magnetometer
 * Gyroscope
 * HC-06 (Bluetooth component)
