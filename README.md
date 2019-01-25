@@ -12,8 +12,8 @@ the Arduino components (Shoe and belt) for the BionicEye project
 ## Belt Component:
 * A fritzing diagram of the belt component:
 
-![This is a fritzing diagram of the belt component](/Pictures/belt.png "Belt Component")
+![This is a fritzing diagram of the belt component](/Pics/belt.png "Belt Component")
 
 ## Shoe Component:
 * A fritzing diagram of the shoe component:
-![This is a fritzing diagram of the shoe component](/Pictures/shoe.png "Shoe Component")
+![This is a fritzing diagram of the shoe component](/Pics/shoe.png "Shoe Component")
