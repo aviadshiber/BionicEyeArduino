@@ -54,56 +54,35 @@ void getDiraction() {
     Serial.println(c);
   }
   else {
-    return;
+    return; //nothing to do here
   }
-  if (c == '9') {
+  if (c == '9') { //starting navigating
     vibAll();
-  }
-
-  //forward only
-  if (c == '3' && isContinue ) {
+  }else if (c == '3' && isContinue ) { //forward only
     vib(continuePin);
     isContinue = false;
-  }
-  // "hard" right
-  if (c == '6') {
+  }else if (c == '6') {  // "hard" right
     vib(rightPin);
     isContinue = true;
-  }
-  // "hard" left
-  if (c == '0') {
+  }else if (c == '0') {  // "hard" left
     vib(leftPin);
     isContinue = true;
-  }
-  // "softer" right
-  if (c == '4') {
+  }else if (c == '4') { // "softer" right
     vib(continuePin);
-    //delay(50);
     vib(rightPin);
     isContinue = true;
-  }
-  // "soft" right
-  if (c == '5') {
+  }else if (c == '5') { // "soft" right
     vib(continuePin);
-    //delay(200);
     vib(rightPin);
-    //delay(200);
     vib(rightPin);
     isContinue = true;
-  }
-  // "soft" left
-  if (c == '1') {
+  }else if (c == '1') { // "soft" left
     vib(continuePin);
-    //delay(200);
     vib(leftPin);
-    //delay(200);
     vib(leftPin);
     isContinue = true;
-  }
-  // "softer" left
-  if (c == '2') {
+  }else if (c == '2') {// "softer" left
     vib(continuePin);
-    //delay(200);
     vib(leftPin);
     isContinue = true;
   }
